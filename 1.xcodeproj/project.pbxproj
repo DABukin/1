@@ -16,6 +16,7 @@
 		8D2CA2CC27F980AC0026B298 /* _Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CA2CB27F980AC0026B298 /* _Tests.swift */; };
 		8D2CA2D627F980AC0026B298 /* _UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CA2D527F980AC0026B298 /* _UITests.swift */; };
 		8D2CA2D827F980AC0026B298 /* _UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CA2D727F980AC0026B298 /* _UITestsLaunchTests.swift */; };
+		8D8AC3262802C216002B4226 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8AC3252802C216002B4226 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8D2CA2D127F980AC0026B298 /* 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2CA2D527F980AC0026B298 /* _UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _UITests.swift; sourceTree = "<group>"; };
 		8D2CA2D727F980AC0026B298 /* _UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8D8AC3252802C216002B4226 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				8D2CA2B627F980AC0026B298 /* SceneDelegate.swift */,
 				8D2CA2B827F980AC0026B298 /* ViewController.swift */,
 				8D2CA2BA27F980AC0026B298 /* Main.storyboard */,
+				8D8AC3252802C216002B4226 /* NewViewController.swift */,
 				8D2CA2BD27F980AC0026B298 /* Assets.xcassets */,
 				8D2CA2BF27F980AC0026B298 /* LaunchScreen.storyboard */,
 				8D2CA2C227F980AC0026B298 /* Info.plist */,
@@ -261,6 +264,7 @@
 				8D2CA2B927F980AC0026B298 /* ViewController.swift in Sources */,
 				8D2CA2B527F980AC0026B298 /* AppDelegate.swift in Sources */,
 				8D2CA2B727F980AC0026B298 /* SceneDelegate.swift in Sources */,
+				8D8AC3262802C216002B4226 /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
