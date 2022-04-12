@@ -69,8 +69,8 @@ class NewViewController: UIViewController {
         
         guard let login = loginTextField.text,
                 let password = passwordTextField.text,
-        login == "",
-              password == "" else {
+        login == "111",
+              password == "222" else {
                 show(message: "Error")
                   return
               }
