@@ -7,6 +7,25 @@
 
 import UIKit
 
+let cities = [
+    City(image: UIImage.init(systemName: "circle.dashed"),name: "Москва"),
+    City(image: UIImage.init(systemName: "pencil.and.outline"),name: "Питер"),
+    City(image: UIImage.init(systemName: "paperplane"),name: "Екат"),
+    City(image: UIImage.init(systemName: "person.icloud"),name: "Казань"),
+    City(image: UIImage.init(systemName: "house"),name: "Орехово-Зуево"),
+    City(image: UIImage.init(systemName: "car.fill"),name: "Люберцы"),
+    City(image: UIImage.init(systemName: "textformat"),name: "Балашиха"),
+    City(image: UIImage.init(systemName: "hare"),name: "Реутов"),
+    City(image: UIImage.init(systemName: "radio"),name: "Северный"),
+    City(image: UIImage.init(systemName: "ferry"),name: "Ницца"),
+
+]
+
+
+
+
+
+
 class FavoritCityController: UITableViewController {
 
     override func viewDidLoad() {
@@ -27,18 +46,31 @@ class FavoritCityController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 10
+       
+        
+        
+        // после return можно поставить количество или написать как ниже
+        return cities.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CityCell", for: indexPath)
-
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "CityCell", for: indexPath) as? CityCell else {
+            preconditionFailure("Error cell")
+        }
+        // вывод строк по name
+        cell.CityNameLabel.text = cities[indexPath.row].name
+        
+        
+        
+        //вывод картинок
+        cell.CityImageView.image = cities[indexPath.row].image
+        
+        
         // Configure the cell...
 
-        print(indexPath.section)
-        print(indexPath.row)
+        //print(indexPath.section)
+        //print(indexPath.row)
         
         
         
