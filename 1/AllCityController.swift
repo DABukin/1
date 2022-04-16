@@ -1,14 +1,17 @@
 //
-//  LimeViewController.swift
+//  1ViewController.swift
 //  1
 //
-//  Created by Дмитрий Алексеевич on 10.04.2022.
+//  Created by Дмитрий Алексеевич on 14.04.2022.
 //
 
 import UIKit
 import Foundation
-class LimeViewController: UIViewController {
+class AllCityViewController: UIViewController {
 
+    @IBOutlet var tableView: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
