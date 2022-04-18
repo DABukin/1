@@ -1,5 +1,5 @@
 //
-//  CityCell.swift
+//  FrendCell.swift
 //  1
 //
 //  Created by Дмитрий Алексеевич on 16.04.2022.
@@ -7,12 +7,12 @@
 
 import UIKit
 
-class CityCell: UITableViewCell {
+class FrendCell: UITableViewCell {
 
     
-    @IBOutlet weak var CityImageView: UIImageView!
+    @IBOutlet weak var FrendImageView: UIImageView!
     
-    @IBOutlet weak var CityNameLabel: UILabel!
+    @IBOutlet weak var FrendNameLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

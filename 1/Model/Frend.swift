@@ -1,5 +1,5 @@
 //
-//  City.swift
+//  Frend.swift
 //  1
 //
 //  Created by Дмитрий Алексеевич on 16.04.2022.
@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class City {
+class Frend {
     let image: UIImage?
     let name: String
     

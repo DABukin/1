@@ -44,7 +44,7 @@ class NewViewController: UIViewController {
                                                name: UIResponder.keyboardWillHideNotification,
                                                object: nil)
         //скрыть полоску навигации
-        navigationController?.setToolbarHidden(true, animated: false)
+        navigationController?.setToolbarHidden(false, animated: false)
     }
 //уведомление о показе клавиатуры
     @objc func WillShowKeyboard (_ notification: Notification) {
